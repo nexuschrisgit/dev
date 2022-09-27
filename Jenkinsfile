@@ -4,7 +4,7 @@ pipeline {
     stage("build") {
       steps{
         echo "build ..."
-        sh "cd json-jdbc-server;mvn clean package"
+        sh "cd SpringBootHelloWorldExample;mvn clean package"
       }
     }
     stage("deploy") {
